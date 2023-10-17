@@ -17,6 +17,12 @@ const fetchPokemon = async (pokemon) => {
     }
 }
 
+const clickAudio = async () => {
+    const audio = new Audio();
+    audio.src = "../Audios/click_button.mp3";
+    audio.play();
+}
+
 const renderPokemon = async (pokemon) => {
 
     pokemonName.innerHTML = "Loading...";
@@ -44,7 +50,7 @@ form.addEventListener('submit', (event) => {
 });
 
 buttonPrev.addEventListener('click', () => {
-   
+
     if(searchPokemon > 1){
         searchPokemon -= 1;
         renderPokemon(searchPokemon)

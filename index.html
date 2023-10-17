@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +15,9 @@
 </head>
 <body>
 
+
     <main>
+
         <img src="#" alt="pokemon" class="pokemon__image" >
 
         <h1 class="pokemon__data">
@@ -24,22 +26,24 @@
         </h1>
 
         <form class="form">
-            <input 
+            <input
             type="search"
             class="input__search"
-            placeholder="Name or Number"
+            placeholder="Nome ou Número"
             required
             />
         </form>
 
+        <audio title="Trilha Sonora" class="trilha_fundo" autoplay src="Audios/trilha_sonora.mp3" loop type="audio/mpeg" controls></audio>
+
         <div class="buttons">
-            <button class="button btn-prev">Prev &lt</button>
-            <button class="button btn-next">Next &gt</button>
+            <button onclick="clickAudio()" class="button btn-prev">Prev &lt</button>
+            <button onclick="clickAudio()" class="button btn-next">Next &gt</button>
         </div>
 
         <img src="./Imagens/pokedex.png" alt="pokedex" class="pokedex">
 
     </main>
-    
+
 </body>
 </html>

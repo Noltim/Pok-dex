@@ -20,6 +20,13 @@ main {
     position: relative;
 }
 
+.trilha_fundo {
+    position: absolute;
+    bottom: 20%;
+    left: 12%;
+    border-radius: 20px;
+}
+
 .pokedex {
     width: 100%;
     max-width: 425px;
