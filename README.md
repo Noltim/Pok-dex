@@ -1,2 +1,2 @@
-# Pok-dex
+# Pokédex
 Aprofundando em Javascript
