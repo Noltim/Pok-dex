@@ -17,33 +17,38 @@
 
 <body>
     <main>
-        <div class="buttons-saiba">
-            <a href="https://www.youtube.com/watch?v=NwldzkRrV_A" class="button_aprenda saiba-mais">Aprenda</a>
+        <div class="pokedex-all">
+            <div class="buttons-saiba">
+                <a href="https://www.youtube.com/watch?v=NwldzkRrV_A" class="button_aprenda saiba-mais">Aprenda</a>
+            </div>
+
+            <div class="pokemon-data">
+                <img src="#" alt="pokemon" class="pokemon__image">
+                <h1 class="pokemon__data">
+                    <span class="pokemon__number"></span> -
+                    <span class="pokemon__name"></span>
+                </h1>
+            </div>
+
+            <div class="form_container">
+                <form class="form">
+                    <input type="search" class="input__search" placeholder="Nome ou Número" required />
+                </form>
+            </div>
+
+            <div class="audio_container">
+                <audio title="Trilha Sonora" class="trilha_fundo" autoplay src="Audios/trilha_sonora.mp3" loop
+                    type="audio/mpeg" controls></audio>
+            </div>
+            <div class="buttons">
+                <button onclick="clickAudio()" class="button btn-prev">Prev &lt</button>
+                <button onclick="clickAudio()" class="button btn-next">Next &gt</button>
+            </div>
+
+            <div class="pokedex_container">
+                <img src="./Imagens/pokedex.png" alt="pokedex" class="pokedex">
+            </div>
         </div>
-
-        <img src="#" alt="pokemon" class="pokemon__image">
-
-        <h1 class="pokemon__data">
-            <span class="pokemon__number"></span> -
-            <span class="pokemon__name"></span>
-        </h1>
-
-
-        <form class="form">
-            <input type="search" class="input__search" placeholder="Nome ou Número" required />
-        </form>
-
-        <audio title="Trilha Sonora" class="trilha_fundo" autoplay src="Audios/trilha_sonora.mp3" loop type="audio/mpeg"
-            controls>
-        </audio>
-
-        <div class="buttons">
-            <button onclick="clickAudio()" class="button btn-prev">Prev &lt</button>
-            <button onclick="clickAudio()" class="button btn-next">Next &gt</button>
-        </div>
-
-        <img src="./Imagens/pokedex.png" alt="pokedex" class="pokedex">
-
     </main>
 
 </body>
