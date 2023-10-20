@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,26 +14,28 @@
 
     <title>Pokédex</title>
 </head>
+
 <body>
     <main>
+        <div class="buttons-saiba">
+            <a href="https://www.youtube.com/watch?v=NwldzkRrV_A" class="button_aprenda saiba-mais">Aprenda</a>
+        </div>
 
-        <img src="#" alt="pokemon" class="pokemon__image" >
+        <img src="#" alt="pokemon" class="pokemon__image">
 
         <h1 class="pokemon__data">
             <span class="pokemon__number"></span> -
             <span class="pokemon__name"></span>
         </h1>
 
+
         <form class="form">
-            <input
-            type="search"
-            class="input__search"
-            placeholder="Nome ou Número"
-            required
-            />
+            <input type="search" class="input__search" placeholder="Nome ou Número" required />
         </form>
 
-        <audio title="Trilha Sonora" class="trilha_fundo" autoplay src="Audios/trilha_sonora.mp3" loop type="audio/mpeg" controls></audio>
+        <audio title="Trilha Sonora" class="trilha_fundo" autoplay src="Audios/trilha_sonora.mp3" loop type="audio/mpeg"
+            controls>
+        </audio>
 
         <div class="buttons">
             <button onclick="clickAudio()" class="button btn-prev">Prev &lt</button>
@@ -44,4 +47,5 @@
     </main>
 
 </body>
+
 </html>
