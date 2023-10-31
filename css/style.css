@@ -42,35 +42,35 @@ main {
 
 
 
-.buttons-saiba{
-    position: absolute;
-    margin: 105%;
-    bottom: 10%;
-    left: -23%;
-    width: 40%;
-    transform: translate(-57%, 0);
-    display: flex;
-    gap: 20px;
-}
+/*.buttons-saiba{*/
+/*    position: absolute;*/
+/*    margin: 105%;*/
+/*    bottom: 10%;*/
+/*    left: -23%;*/
+/*    width: 40%;*/
+/*    transform: translate(-57%, 0);*/
+/*    display: flex;*/
+/*    gap: 20px;*/
+/*}*/
 
-.button_aprenda{
-    width: 50%;
-    padding: 4%;
-    border: 2px solid #000;
-    border-radius: 5px;
-    font-size: clamp(8px, 5vw, 1rem);
-    font-weight: 600px;
-    color: white;
-    background-color: #444;
-    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
-    text-decoration: none;
+/*.button_aprenda{*/
+/*    width: 50%;*/
+/*    padding: 4%;*/
+/*    border: 2px solid #000;*/
+/*    border-radius: 5px;*/
+/*    font-size: clamp(8px, 5vw, 1rem);*/
+/*    font-weight: 600px;*/
+/*    color: white;*/
+/*    background-color: #444;*/
+/*    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;*/
+/*    text-decoration: none;*/
 
-}
+/*}*/
 
-.button_aprenda:active {
-    box-shadow: inset -4px 4px 0 #222;
-    font-size:  0.9rem;
-}
+/*.button_aprenda:active {*/
+/*    box-shadow: inset -4px 4px 0 #222;*/
+/*    font-size:  0.9rem;*/
+/*}*/
 
 .pokemon__data {
     position: absolute;
