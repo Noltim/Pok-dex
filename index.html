@@ -1,21 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!--- Links --->
     <link rel="icon" href="/favicons/favicon-16x16.png">
     <link rel="stylesheet" href="./css/style.css">
 
+    <!--- Main JS --->
+    <script defer src="./js/script.js"></script>
+
     <title>Pokédex</title>
 </head>
+
 <body>
-
     <main>
+        <div class="pokedex-all">
+            <div class="buttons-saiba">
+                <a href="./game/index.html" class="button_aprenda saiba-mais">Jogo</a>
+            </div>
 
-        <img src="./Imagens/pokedex.png" alt="pokedex" class="pokedex">
+            <div class="pokemon-data">
+                <img src="#" alt="pokemon" class="pokemon__image">
+                <h1 class="pokemon__data">
+                    <span class="pokemon__number"></span> -
+                    <span class="pokemon__name"></span>
+                </h1>
+            </div>
 
+            <div class="form_container">
+                <form class="form">
+                    <input type="search" class="input__search" placeholder="Nome ou Número" required />
+                </form>
+            </div>
+
+            <div class="audio_container">
+                <audio title="Trilha Sonora" class="trilha_fundo" autoplay src="Audios/trilha_sonora.mp3" loop
+                    type="audio/mpeg" controls></audio>
+            </div>
+            <div class="buttons">
+                <button onclick="clickAudio()" class="button btn-prev">&lt &nbsp; &nbsp; Prev</button>
+                <button onclick="clickAudio()" class="button btn-next">Next &nbsp; &nbsp; &gt</button>
+            </div>
+
+            <div class="pokedex_container">
+                <img src="./Imagens/pokedex.png" alt="pokedex" class="pokedex">
+            </div>
+        </div>
     </main>
-    
+        <div class="video">
+            <iframe  width="560" height="315" src="./Videos/apresentação pokedex.mp4" allowfullscreen></iframe>
+        </div>
+
 </body>
+
 </html>
