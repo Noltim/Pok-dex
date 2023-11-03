@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../favicons/favicon-16x16.png">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+
+    <title>Pokemon jump</title>
+</head>
+<body>
+
+<div class="actions">
+    <a href="../index.html" class="link">Pokedex</a>
+
+    <h1>
+        Fuja das Pokebolas!
+    </h1>
+
+    <a onclick="restartGame()" class="link restart-button">Reiniciar Jogo</a>
+</div>
+
+<div class="audio_container">
+    <audio title="Trilha Sonora" class="trilha_fundo" autoplay src="../Audios/Full Pokémon RB (256 kbps).mp3" loop
+           type="audio/mpeg"></audio>
+</div>
+<div class="score-div">
+    <span class="points">Pontuação: 0</span>
+    <span class="game-over">GAME OVER - REINICIE O JOGO</span>
+</div>
+<div class="game-board">
+    <img src="./imagens/clouds.png" class="nuvem">
+    <img src="./imagens/pokestaculo.gif" class="pokeball">
+    <img src="./imagens/pikachu.gif" class="pokemon">
+
+</div>
+</body>
+</html>
