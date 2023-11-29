@@ -22,7 +22,6 @@ const fetchPokemon = async (pokemon) => {
 const clickAudio = async () => {
     audioSlash.src = "./Audios/click_button.mp3";
     audioSlash.play();
-    console.log(audioSlash)
 }
 
 const renderPokemon = async (pokemon) => {
