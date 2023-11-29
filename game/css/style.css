@@ -21,6 +21,17 @@
     }
 }
 
+.audio_container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.game-trilha {
+    border-radius: 10px;
+    margin-left: -15px;
+}
+
 .points {
     font-size: 30px;
     padding: 10px 20px;
