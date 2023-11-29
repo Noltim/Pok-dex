@@ -6,6 +6,8 @@ const form = document.querySelector('.form')
 const inputSearch = document.querySelector('.input__search')
 const buttonPrev = document.querySelector('.btn-prev')
 const buttonNext = document.querySelector('.btn-next')
+const audioSlash = document.querySelector('.audioSlash')
+
 
 let searchPokemon = 1;
 
@@ -18,9 +20,9 @@ const fetchPokemon = async (pokemon) => {
 }
 
 const clickAudio = async () => {
-    const audio = new Audio();
-    audio.src = "../Audios/click_button.mp3";
-    audio.play();
+    audioSlash.src = "./Audios/click_button.mp3";
+    audioSlash.play();
+    console.log(audioSlash)
 }
 
 const renderPokemon = async (pokemon) => {
